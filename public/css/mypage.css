@@ -1,0 +1,404 @@
+
+
+.mypage {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.mypage .mypage_frame {
+    width: 1320px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container {
+    flex-direction: row;
+}
+
+.account_left {
+    width: 200px;
+    height: 340px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.account_left .profile {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 60px;
+    transform: rotate(180);
+}
+
+.profile div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+
+}
+
+.profile div span {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.profile div p{
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+
+}
+
+.border {
+    width: 100%;
+    height: 1px;
+    background: rgb(234, 234, 234);
+    
+}
+
+.profile_details {
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.profile_details span {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 45px;
+
+    margin-left: 10px;
+   
+}
+
+.account_right {
+    width: 100%;
+    height: auto;
+    margin-left: 60px;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.account_right strong {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+
+}
+
+.account_right .profile_info {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.profile_info .profile_info_box {
+    width: 350px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.profile_info_box a {
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(98, 105, 116);
+    cursor: pointer;
+
+
+}
+
+.profile_info_box .active{
+    border-bottom: 1px solid;
+    color: rgb(4, 30, 66);
+}
+
+.profile_info .name_box {
+    width: 100%;
+    height: auto;
+  
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+
+.name_box div {
+    width: 525px;
+    height: auto;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.name_box div span {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.name_box div input {
+    width: 100%;
+    height: 55px;
+    
+    padding: 15px;
+    box-sizing: border-box;
+
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.cancel_box {
+    width: 200px;
+    height: 52px;
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancel_box button {
+    width: 120px;
+    height: 52px;
+
+    box-sizing: border-box;
+
+    border: 1px solid rgb(245, 195, 75);
+    border-radius: 6px;
+
+
+    box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+    background: rgb(245, 195, 75);
+}
+
+.cancel_box .cancel_btn {
+    width: 70px;
+    height: 52px;
+
+    background:none;
+    border: none;
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+
+
+}
+
+.profile_info .password_box {
+    width: 555px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.password_box div {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.password_box div span {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.password_box div input {
+    width: 100%;
+    height: 55px;
+    padding: 15px;
+
+    box-sizing: border-box;
+
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+
+    background: rgb(255, 255, 255);
+}
+
+.profile_info .permission_box {
+    width: 725px;
+    height: auto;
+    
+
+    display: flex;
+    flex-direction: column;
+}
+
+.permission_box .permission_box_content {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.permission_box_content div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.permission_box_content div span {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+
+}
+
+.permission_box_content div p {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.border1 {
+    width: 725px;
+    height: 1px;
+    background: rgb(234, 234, 234);
+    margin: 10px 0;
+}
+
+.permission_box_content .switch {
+    width: 60px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
