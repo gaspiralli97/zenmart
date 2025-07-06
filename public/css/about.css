@@ -1,0 +1,396 @@
+
+
+.about_page {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_frame {
+    width: 1320px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container {
+    flex-direction: column;
+}
+
+.image_box {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image_box .image_box_left {
+    width: 49%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    
+}
+
+.image_box_left .image1:hover {
+    transition: 0.4s ease-in;
+    transform: scale(1.1);
+
+}
+
+.image_box_left .image1 {
+    width: 306px;
+    height: 470px;
+    
+
+}
+
+
+
+.image_box_left .image2 {
+    width: 306px;
+    height: 470px;
+    margin-left: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image_box_left .image2 img:hover {
+    transition: 0.4s ease-in;
+    transform: scale(1.1);
+
+}
+
+.content_box {
+    width: 100%;
+    height: auto;
+   
+    padding:60px 90px;
+    box-sizing: border-box;
+
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content_box .about_store {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.about_store strong {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.about_store span {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+
+    margin-top: 30px;
+
+}
+
+.about_store p {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+    margin-top: 20px;
+}
+
+.about_store .store_mission {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.store_mission span {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+
+}
+
+.border {
+    width: 100%;
+    height: 1px;
+    background: rgb(234, 234, 234);
+
+    margin: 60px 0;
+}
+
+.store_review {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.store_review strong {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.store_review .review_box {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.review_box div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.review_box div span {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 72px;
+}
+
+.review_box div p {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.leader_box {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.leader_box strong {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+
+}
+
+.leader_box .leader_image {
+    width: 100%;
+    height: 405px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leader_image div {
+    width: 265px;
+    height: 405px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.leader_image div:hover {
+    transition: 0.4s ease-in;
+    transform: scale(1.1);
+
+}
+
+.leader_image img {
+    width: 265px;
+    height: 330px;
+    box-sizing: border-box;
+    object-fit: cover;
+    
+     border-radius: 8px;
+     cursor: pointer;
+}
+
+.leader_image div span {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+
+    margin-top: 20px;
+}
+
+.leader_image div p {
+   color: rgb(98, 105, 116);
+   font-family: "Jost";
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 22px;
+}
+
+.leader_image .notsame {
+    width: 265px;
+    height: 405px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.notsame .index {
+    position: relative;
+    width: 265px;
+    height: 330px;
+    background-image: url(../pictures/leader2.2jfif.jpg);
+    background-size: cover;
+    
+    
+     border-radius: 8px;
+     cursor: pointer;
+     
+    
+}
+
+.notsame .index:hover {
+    transition: 0.4s ease-in;
+    transform: scale(1.1);
+
+}
+
+.notsame .index div {
+    
+    width: 265px;
+    height: 330px;
+    border-radius: 8px;
+    background-color: rgb(245, 195, 75);
+    opacity: 0.6;
+}
+
+.notsame div:hover {
+    transition: 0.4s ease-in;
+    transform: scale(1.1);
+
+}
+
+.icon_box {
+    position: absolute;
+    width: 110px;
+    height: 15px;
+    
+    align-items: center;
+    justify-content: center;  
+}
+
+.icon_box a {
+    margin-left: 10px;
+    color: black;
+}
+
+.choose_box {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+.choose_box strong {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.facilities {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.facilities div {
+    width: 207px;
+    height:auto;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    
+}
+
+.facilities div img {
+    width: 33px;
+    height: 40px;
+
+    
+}
+
+.facilities div span {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.facilities div p {
+    color: rgb(98, 105, 116);
+    font-family: "Jost";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+   
+   
+}
+
+
+
+
+
+
