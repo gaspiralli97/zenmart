@@ -1,0 +1,539 @@
+
+.contact_page {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_page iframe {
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+
+
+}
+
+.contact_frame {
+    width: 100%;
+    height: auto;
+
+    margin-top: 60px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 1320px;
+    height: auto;
+    flex-direction: column;
+}
+
+.contact_box {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact_box .contact_box_left {
+    width: 550px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact_box_left strong {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+
+}
+
+.contact_box_left .left_content {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.left_content p {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.left_content .content_icon {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.content_icon img {
+    width: 30px;
+    height: 27px;
+    margin-right: 20px;
+}
+
+.content_icon div {
+    display: flex;
+    flex-direction: column;
+}
+
+.content_icon div span {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.content_icon div p {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+
+.follow {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.follow span {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.follow div {
+    width: 130px;
+    height: 52px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.follow div a {
+    margin-top: 10px;
+}
+
+.contact_box_right {
+    width: 655px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_box_right .name {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name div {
+    width: 315px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.name div span {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.name div input {
+    width: 100%;
+    height: 55px;
+    padding: 15px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-top: 10px;
+
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+
+    background: rgb(255, 255, 255);
+}
+
+.subject {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.subject span {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.subject input {
+    width: 100%;
+    height: 55px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    cursor: pointer;
+
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+
+    background: rgb(255, 255, 255);
+}
+
+.contact_box_right div {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_box_right div span {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.contact_box_right div textarea {
+    width: 100%;
+    height: 260px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 10px;
+
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+
+    background: rgb(255, 255, 255);
+
+
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.contact_box_right button {
+    width: 170px;
+    height: 52px;
+    margin-top: 20px;
+
+    box-sizing: border-box;
+
+    border: 1px solid rgb(245, 195, 75);
+    border-radius: 6px;
+
+
+    box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+    background: rgb(245, 195, 75);
+
+    cursor: pointer;
+}
+
+.border {
+    width: 100%;
+    height: 1px;
+    margin: 50px 0;
+    background: rgb(234, 234, 234);
+}
+
+.location {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.location div {
+    width: 445px;
+    height: 155px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.location div span {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+
+}
+
+.location div p {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.location .location_boxes {
+    width: 708px;
+    height: 405px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.location_boxes .location_box {
+    width: 305px;
+    height: 185px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.location_box strong {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+
+
+}
+
+.location_box p {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+.location_box a {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-top: 10px;
+    text-decoration: underline 2px solid  rgb(4, 30, 66);;
+    
+
+}
+
+.question_box {
+    width: 1100px;
+    height: auto;
+    padding-left: 120px;
+    padding-right: 100px;
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+   
+    
+
+}
+
+.question_box .small_border {
+     width: 100%;
+     height: 1px;
+     background: rgb(234, 234, 234);
+     margin: 30px 0;
+
+}
+
+.question_box strong {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.question_box .question1 {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+   
+}
+
+.question1 .question1_left {
+    display: flex;
+    flex-direction: row;
+    
+}
+.question1_left div {
+    width: 1060px;
+    height: 28px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.question1_left div strong {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.question1_left div span {
+    width: 1018px;
+    height: 40px;
+   display: flex;
+   flex-direction: row;
+    align-items: center;
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-left: 20px;
+
+}
+
+.question1_lef .plus span {
+    width: 20px;
+   margin-left: 20px;
+    height: 20px;
+    background: rgb(4, 30, 66);
+    font-size: 20px;
+     line-height: 29px;
+     font-weight: 400;
+     cursor: pointer;
+}
+
+.question1 p {
+    margin-top: 20px;
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+
+
+.other_questions {
+    display: flex;
+    flex-direction: row;
+    
+}
+.other_questions div {
+    width: 1060px;
+    height: 28px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.other_questions div strong {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.other_questions span {
+    width: 1018px;
+    height: 40px;
+   display: flex;
+   flex-direction: row;
+    align-items: center;
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-left: 20px;
+
+}
+
+.other_questions .plus {
+    width:20px;
+    height:20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
