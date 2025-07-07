@@ -1,0 +1,278 @@
+
+
+.login_page {
+
+    position: relative;
+    width: 2600px;
+    height: 2000px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background: rgb(229, 229, 229);
+}
+
+.login_frame {
+    width: 750px;
+    height: 830px;
+
+    padding: 60px;
+   
+    box-sizing: border-box;
+
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+
+    box-shadow: 0px 10px 50px 0px rgba(4, 30, 66, 0.05);
+    background: rgb(255, 255, 255);
+}
+
+.login_frame strong {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+
+}
+
+.login_frame .password_box {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.password_box div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+.password_box div span {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.password_box div input {
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    margin-top: 10px;
+
+    box-sizing: border-box;
+
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.login_box {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login_box div {
+    width: 200px;
+    height: 30px;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.login_box div input {
+    width: 26px;
+    height: 20px;
+
+    box-sizing: border-box;
+
+    border: 1px solid rgb(4, 30, 66);
+    border-radius: 4px;
+
+}
+
+.login_box div span {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 10px;
+}
+
+button {
+    width: 100%;
+    height: 52px;
+
+    box-sizing: border-box;
+
+    border: 1px solid rgb(245, 195, 75);
+    border-radius: 6px;
+
+
+    box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+    background: rgb(245, 195, 75);
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 40px;
+    text-align: center;
+    
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+p span {
+     color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.border {
+    width: 100%;
+    height: 52px;
+    position: relative;
+
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.border div {
+    width: 270px;
+    height: 1px;
+    border-radius: 8px;
+
+    background: rgb(234, 234, 234);
+}
+
+.border span {
+   
+    
+    align-items: center;
+    justify-content: center;
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.media {
+    width: 100%;
+    height: 60px;
+  
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.media .facebook {
+    width: 132px;
+    height: 60px;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    box-sizing: border-box;
+
+    border: 1px solid rgb(25, 103, 210);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    
+}
+
+.media .google {
+    width: 132px;
+    height: 60px;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    box-sizing: border-box;
+
+    border: 1px solid rgb(217, 48, 37);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.media .tvitter {
+    width: 132px;
+    height: 60px;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    box-sizing: border-box;
+
+    border: 1px solid rgb(45, 154, 220);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.media .apple {
+    width: 132px;
+    height: 60px;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    box-sizing: border-box;
+
+    border: 1px solid rgb(4, 30, 66);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
