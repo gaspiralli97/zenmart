@@ -1,0 +1,766 @@
+
+
+body {
+   padding: 0;
+   margin: 0;
+   align-items: center;
+   max-width: 1920px;
+}
+
+.container {
+     position: relative;
+    width: 1920px;
+    height: 100%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar_page {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar_page .navbar_left {
+    width: 50%;
+    height: 50px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.navbar_left .left_title {
+    width: auto;
+    height: 50px;
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left_title strong {
+   margin-left: 30px;
+   color: rgb(4, 30, 66);
+   font-family: "Poppins";
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 36px;
+
+    
+}
+
+.left_title a {
+    width: 50px;
+    height: 50px;
+    color: black;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 15px;
+   
+}
+
+.navbar_left div {
+    width: 405px;
+    height: 100%;
+    position: relative;
+    margin-right: 40px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+/* .navbar_left div img {
+    margin-right: 30px;
+} */
+
+.navbar_left div input {
+    width: 405px;
+    height: 50px;
+    padding: 10px;
+
+    box-sizing: border-box;
+/* Color/Border */
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+
+    background: rgb(255, 255, 255);
+}
+
+.navbar_left div img {
+    position: absolute;
+
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.navbar_right {
+    width: 50%;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.navbar_right .icon_box {
+    width: 160px;
+    height: 50px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+}
+
+
+.icon_box a {
+    color: black;
+    cursor: pointer;
+}
+
+.navbar_right img {
+    width: 60px;
+    height: 50px;
+    margin-left: 30px;
+
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+/* SETTING PAGE */
+
+.setting_page {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+
+}
+
+.setting_page .setting_box_left {
+    width: 240px;
+    height: 385px;
+    margin-top: 90px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.setting_box_left div {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.setting_box_left div span {
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 20px;
+}
+
+.setting_box_right {
+    width: 1590px;
+    height: auto;
+    padding: 60px;
+    
+
+    border-radius: 16px;
+
+    background: rgb(243, 245, 246);
+}
+
+.setting_box_right .title {
+    width: 275px;
+    height: 72px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title strong {
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+
+}
+
+.title p {
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.profile_box {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    position: relative;
+
+    border-radius: 16px;
+
+
+    box-shadow: 0px 1px 4px 0px rgba(20, 3, 66, 0.07);
+    background: rgb(255, 255, 255);
+}
+
+.page_router span.active {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.profile_name {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.profile_name strong {
+    width: 100px;
+    height: 90px;
+
+    border-radius: 100px;
+
+   background: rgb(255, 51, 101);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.name_right {
+    width: 100%;
+    height: 100px;
+    margin-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.name_right span {
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+
+}
+
+.name_right p {
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.name_right div {
+    width: 100px;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name_right div a {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+
+    background: rgb(243, 245, 246);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    cursor: pointer;
+
+}
+
+.border {
+    width: 100%;
+    height: 1px;
+    background: rgb(234, 234, 234);
+    margin: 20px 0;
+}
+
+.password_content {
+    width: 100%;
+    height: 470px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.password_content div {
+    width: 47%px;
+    height: 88px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.password_content div span {
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 10px;
+
+}
+
+.password_content div input,select {
+    width: 690px;
+    height: 55px;
+    padding: 15px;
+    cursor: pointer;
+
+
+    box-sizing: border-box;
+
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+
+    background: rgb(255, 255, 255);
+}
+
+.textname {
+    width: 1420px;
+    height: 290px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.textname span {
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.textname textarea {
+    width: 100%;
+    height: 255px;
+    padding: 15px;
+    
+    
+    
+
+    box-sizing: border-box;
+
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+
+    background: rgb(255, 255, 255);
+
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    
+
+}
+
+.cancel {
+    width: 240px;
+    height: 52px;
+
+    margin-top: 30px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.cancel .btn {
+    width: 165px;
+    height: 52px;
+    box-sizing: border-box;
+
+    border: 1px solid rgb(245, 195, 75);
+    border-radius: 6px;
+
+
+    box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+    background: rgb(245, 195, 75);
+
+     color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.cancel button {
+    width: 60px;
+    height: 52px;
+    background: white;
+    border: none;
+
+     color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.password_box {
+    width: 100%;
+    height: 530px;
+    margin-top: 60px;
+    padding: 20px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    
+
+    border-radius: 16px;
+
+
+    box-shadow: 0px 1px 4px 0px rgba(20, 3, 66, 0.07);
+    background: rgb(255, 255, 255);
+}
+
+.password_setting {
+    width: 690px;
+    height: 325px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.password_setting div {
+    width: 100%;
+    height: 88px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.password_setting div span {
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.password_setting div input {
+    cursor: pointer;
+    width: 100%;
+    height: 55px;
+    padding: 15px;
+    
+
+    box-sizing: border-box;
+
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+
+    background: rgb(255, 255, 255);
+
+
+}
+
+.social_box {
+    width: 100%;
+    height: 410px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 60px;
+
+    border-radius: 16px;
+
+
+    box-shadow: 0px 1px 4px 0px rgba(20, 3, 66, 0.07);
+    background: rgb(255, 255, 255);
+}
+
+.social_box .social_box_password {
+    width: 100%;
+    height: 206px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.social_box_password div {
+    width: 47%;
+    height: 88px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.social_box_password div span {
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.social_box_password div input {
+    width: 100%;
+    height: 55px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+
+    background: rgb(255, 255, 255);
+    padding: 15px;
+
+
+}
+
+.close_account_box {
+     width: 100%;
+    height: 380px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    border-radius: 16px;
+
+
+    box-shadow: 0px 1px 4px 0px rgba(20, 3, 66, 0.07);
+    background: rgb(255, 255, 255);
+}
+
+.close_content {
+    width: 50%;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.close_content .content_dec {
+    width: 100%;
+    height: 44px;
+   
+    
+    
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.close_content div {
+    width: 100%;
+    height: 88px;
+     margin-top: 30px;
+    
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.close_content .content_dec span {
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 10px;
+    
+}
+
+.close_content div span {
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+
+.close_content div p {
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+
+}
+
+.close_content div input {
+    width: 690px;
+    height: 55px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+
+    background: rgb(255, 255, 255);
+    padding: 15px;
+
+    
+}
+.footer_page {
+    margin-left: 400px;
+}
+
+
+.footer_bottom {
+    margin-top: 90px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 1px solid #eaeaea;
+    
+}
+
+.footer_bottom .footer_main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+;
+}
+
+.footer_main .footer_bottom_left {
+    width: 940px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+.footer_bottom_left span {
+    margin-right: 60px;
+    color: rgb(4, 30, 66);
+    font-family: var(--font);
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    
+    
+}
+
+.footer_main .footer_bottom_right {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.footer_bottom_right .footer_select_box {
+    padding: 10px 20px;
+    width: 180px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background: #ffffff;
+    box-sizing: border-box;
+
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+}
+
+.footer_select_box span {
+    color: rgb(4, 30, 66);
+
+    font-family: var(--font);
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+   
+}
+
+.footer_select_box select {
+    margin-left: 20px;
+    width: 70px;
+    height: 90%;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    color: rgb(4, 30, 66);
+    font-family: var(--font);
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
