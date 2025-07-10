@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenmart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="../public/css/general.css">
+    <link rel="stylesheet" href="../public/css/product.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="navbar_frame">
+        <div class="container">
+            <div class="navbar_top">
+                <a href="../index.html">
+                
+                <img src="../public/pictures/Zenmart..png" alt=""></a>
+                <div class="nav_search_frame">
+                    <div class="search_box">
+                        <div class="category_list">
+                            <select>
+                                <option value="selected"> All Categories</option>
+                                <option value=""> Computer</option>
+                            </select>
+                        </div>
+                    
+                    <input type="search" placeholder="Search Products...">
+                    </div>
+                    <div class="search_icon_box">
+                        <img src=".././public/pictures/search.svg" alt="">
+                    </div>
+                </div>
+                <div class="nav_top_menu">
+                    <a href="../order/cart.html">
+                        <div class="top_menu_box">
+                            <div class="box_icon_box">
+                            <img src="../public/pictures/heart.svg" alt="">
+                            </div>
+                        
+                        <div class="box_info_box">
+                            <span>Wishlist</span>
+                            <strong>My Items</strong>
+                        </div>
+                        </div>
+                    </a>
+                     <a href="../others/login.html">
+                        <div class="top_menu_box">
+                            <div class="box_icon_box">
+                            <img src="../public/pictures/user.svg" alt="">
+                            </div>
+                        
+                        <div class="box_info_box">
+                            <span>Sign In</span>
+                            <strong>Account</strong>
+                        </div>
+                        </div>
+                    </a>
+                     <a href="./order/cart.html">
+                        <div class="top_menu_box">
+                            <div class="box_icon_box">
+                                <div class="basket_count">2</div>
+                            <img src="../public/pictures/savatcha.svg" alt="">
+                            </div>
+                        
+                        <div class="box_info_box">
+                            <span>$200,99</span>
+                            <strong>Total</strong>
+                        </div>
+                        </div>
+                    </a>
+                </div>
+                </div>
+            <div class="navbar_bott">
+                <div class="navbar_bott_menu_box">
+                    <div class="browse_box">
+                        <img src="../public/pictures/browse.svg" alt="">
+                        <span> Browse Categories</span>
+                    </div>
+                    <div class="navbar_route_menu">
+                        <div class="router_menu">
+                            <a href="../index.html" >Home</a>
+                        </div>
+                         <div class="router_menu">
+                            <a href="./all.html" class="active" >Shop</a>
+                        </div>
+                         <div class="router_menu">
+                            <a href="../order/cart.html">Orders</a>
+                        </div>
+                         <div class="router_menu">
+                            <a href="../others/about.html">About</a>
+                        </div>
+                         <div class="router_menu">
+                            <a href="../others/contact.html">Contacts</a>
+                        </div>
+                    </div>
+                    <div class="sorting_menu">
+                        <span>Deal of the Deal</span>
+                        <span>Hot Deals</span>
+                        <span>Best Seller</span>
+                        <span>New Arrivals</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product_frame">
+        <div class="container">
+            <h2>Product Create</h2>
+            <div class="product_detail">
+                <strong>Product Details</strong>
+                <div class="product_name">
+                    <div>
+                        <span>Product name *</span>
+                        <input type="text" placeholder="Ali">
+                    </div>
+                    <div>
+                        <span>Product price *</span>
+                        <input type="text" placeholder="Ali">
+                    </div>
+                    <div>
+                        <span>Product discount *</span>
+                        <input type="text" placeholder="Ali">
+                    </div>
+                    <div>
+                        <span>Product Category *</span>
+                        <input type="text" placeholder="Ali">
+                    </div>
+                    <div>
+                        <span>Product Price *</span>
+                        <input type="text" placeholder="Ali">
+                    </div>
+                    <div>
+                        <span>Product Status *</span>
+                        <select name="" id="" >
+                            <option value="">Quality</option>
+                            <option value="">Good</option>
+                            <option value="">Bad</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="shipping_detail">
+                <strong>Shipping Details</strong>
+                <div>
+                    <span>Order notes (optional)</span>
+                    <textarea name="" id="" placeholder="order notes"></textarea>
+                </div>
+            </div>
+            <div class="product_image">
+                <img src="../public/pictures/leader1.1.jfif" alt="">
+                <div class="image_content">
+                    <span>Product Image*</span>
+                    <form action="http://85.31.232.70:3000/upload" method="post" enctype="multipart/form-data">
+                        <input type="file" name="file" id="file" accept="image/png/jpeg/jpg">
+                        <button>Upload files</button>
+                     </form>
+                    <p>Upload your product image here. It must meet our product image quality standards to be accepted. Important guidelines: 750x440 pixels; .jpg, .jpeg,. gif, or .png. no text on the image.</p>
+                </div>
+            </div>
+           <div class="last_btn">
+             <button>Create</button>
+           </div>
+        </div>
+    </div>
+    <div class="footer_frame">
+         <div class="container">
+            <div class="footer_top">
+                <div class="footer_contact_box">
+                    <span class="footer_spec_title">contact us</span>
+                    <div class="contact_main">
+                        <img src="../public/pictures/images/icons/phone-call.svg" alt="">
+                        <div>
+                            <strong>Monday-Friday  9am-17:00pm</strong>
+                            <span> +821075675897</span>
+                        </div>
+                    </div>
+                    <div class="contact_main">
+                        <img src="../public/pictures/images/icons/email.svg" alt="">
+                        <div>
+                            <strong>Need help with your order?</strong>
+                            <span> support@zenmart.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_support_box">
+                    <span class="footer_spec_title" style="margin-bottom: 10px;">customer support</span>
+                    <a href="">contact us</a>
+                    <a href="">help centre</a>
+                    <a href="">return and exchange</a>
+                    <a href="">best buy financing</a>
+                    <a href="">best buy gift card</a>
+                </div>
+                <div class="footer_support_box">
+                    <span class="footer_spec_title" style="margin-bottom: 10px;" >services</span>
+                    <a href="">geek squad</a>
+                    <a href="">in-home advisor</a>
+                    <a href="">trade-in program</a>
+                    <a href="">electronic recycling</a>
+                    <a href="">best buy health</a>     
+                </div>
+                <div class="footer_media_box">
+                    <div class="footer_media_main">
+                        <span class="footer_spec_title" style="margin-bottom: 20px;">follow us</span>
+                        <div class="media_box">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                    <div class="footer_media_main" style="margin-top: 30px;">
+                        <span class="footer_spec_title"  style="margin-bottom: 20px;">mobile apps</span>
+                        <div class="mobile_app_box">
+                           <img src="../public/pictures/images/icons/apple_icon.png" alt="">
+                           <span>IOS App</span>
+                        </div>
+                         <div class="mobile_app_box">
+                           <img src="../public/pictures/images/icons/android_icon.png" alt="">
+                           <span>Android Apps</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_media_box">
+                    <div class="footer_media_main" style="margin-top: 130px;">
+                        <span class="footer_spec_title">we accept</span>
+                        <div class="card_box">
+                            <img src="../public/pictures/images/icons/visa.png" alt="">
+                            <img src="../public/pictures/images/icons/master_card.png" alt="">
+                            <img src="../public/pictures/images/icons/apple_pay.png" alt="">
+                            <img src="../public/pictures/images/icons/dicvover.png" alt="">
+                            <img src="../public/pictures/images/icons/paypal.png" alt="">
+                            <img src="../public/pictures/images/icons/amex.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="footer_main">
+                  <div class="footer_bottom_left">
+                    <span>© 2022 Zenmart. All Rights Reserved</span>
+                     <span>Privacy  ·  Terms  ·  Sitemap</span>
+                  </div>
+                  <div class="footer_bottom_right">
+                     <div class="footer_select_box">
+                        <span>Currency</span>
+                        <select name="" id="">
+                            <option value="USD">USD</option>
+                            <option value="USS" selected> USS</option>
+                        </select>
+                     </div>
+                     <div class="footer_select_box">
+                        <span>Language</span>
+                        <select name="" id="">
+                            <option value="English">English</option>
+                            <option value="Uzbek" selected> Uzbek</option>
+                        </select>
+                     </div>
+                  </div>
+                </div>
+            </div>
+         </div>
+    </div>
+</body>
+</html>

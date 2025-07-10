@@ -1,0 +1,240 @@
+
+
+.product_frame {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.container {
+    flex-direction: column;
+   
+}
+
+.container h2 {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+}
+
+.product_detail {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.product_detail strong {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    
+}
+
+.product_detail .product_name {
+    width:100%;
+    height: 300px;
+    margin-top: 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.product_name div {
+    width: 47%;
+    height: 88px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.product_name div span {
+     color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.product_name div input,select {
+    width: 100%;
+    height: 55px;
+    margin-top: 10px;
+
+    padding: 10px;
+    box-sizing: border-box;
+
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+
+    background: rgb(255, 255, 255);
+}
+
+.shipping_detail {
+    width: 100%;
+    height: 340px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.shipping_detail strong {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.shipping_detail div {
+    width: 100%;
+    height: 290px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.shipping_detail div span {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.shipping_detail div textarea {
+    width: 100%;
+    height: 260px;
+
+    padding: 20px;
+    box-sizing: border-box;
+
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+
+    background: rgb(255, 255, 255);
+}
+
+.product_image {
+    width: 100%;
+    height: 250px;
+
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.product_image img {
+    width: 250px;
+    height: 250px;
+    
+}
+
+.product_image .image_content {
+    width: 100%;
+    height: 250px;
+    margin-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.image_content span {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.image_content form {
+    width: 100%;
+    height: 55px;
+    position: relative;
+    cursor: pointer;
+   
+
+
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+}
+
+.image_content form button {
+    width: 128px;
+    height: 55px;
+    border-radius: 0px 8px 8px 0px;
+
+    background: rgb(106, 122, 153);
+}
+
+.image_content form input {
+     width: 128px;
+    height: 55px;
+    border-radius: 0px 8px 8px 0px;
+
+    background: rgb(170, 182, 207);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image_content p {
+    color: rgb(4, 30, 66);
+    font-family: "Jost";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.last_btn {
+    width: 100%;
+    height: 52px;
+    margin-top: 20px;
+     margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+button {
+    width: 115px;
+    height: 52px;
+   
+    cursor: pointer;
+
+    box-sizing: border-box;
+
+    border: 1px solid rgb(245, 195, 75);
+    border-radius: 6px;
+
+    text-align: center;
+    box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+    background: rgb(245, 195, 75);
+
+    right:0;
+}
